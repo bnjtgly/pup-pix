@@ -26,10 +26,8 @@ RSpec.describe FetchBreedImage, type: :interactor do
       end
 
       it 'provides an error message' do
-        expected_error_message = "Please Change. Only english alphabets are allowed (letters only & no spaces)."
-        actual_error_message = context.error[:breed].first
-
-        expect(actual_error_message).to eq(expected_error_message)
+        error_message = "Please Change. Only english alphabets are allowed (letters only & no spaces)."
+        expect(context.error).to eq(error_message)
       end
     end
   end

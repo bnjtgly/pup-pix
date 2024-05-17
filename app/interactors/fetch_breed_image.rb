@@ -24,7 +24,7 @@ class FetchBreedImage
     verify = BreedValidator.new(payload)
     return true if verify.submit
 
-    context.fail!(error: verify.errors)
+    context.fail!(error: verify.errors.try(:first).try(:type))
   end
 
   def base_uri
