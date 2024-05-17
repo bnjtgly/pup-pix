@@ -1,24 +1,33 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Running app on local machine
+1. Clone the repo.
+2. **Run** the following command.
+```bash
+cd pup_pix
+```
+```bash
+bundle install
+```
+```bash
+yarn install
+```
 
-Things you may want to cover:
+Run server
+```bash
+rails s
+```
 
-* Ruby version
+Run dev server. In order to run dev server with HMR feature you need to parallely run:
+```bash
+./bin/shakapacker-dev-server
+```
 
-* System dependencies
 
-* Configuration
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Folder Structure
+1. **View** - This folder contains the display templates to fill data in our application.
+2. **Controller** - All the controller files are stored here. A controller handles all the web requests from the user.
+3. **Interactors** - This folder have the appilcations business logic. It is called in controllers or organizers.
+4. **Validators** - Custom validation for interactors.
