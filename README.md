@@ -1,5 +1,8 @@
 # README
 
+**PupPix App** - Deployed on Heroku:
+https://warm-stream-71947-041e91cbab0d.herokuapp.com
+
 ## Running app on local machine
 1. Clone the repo.
 2. **Run** the following command.
