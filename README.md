@@ -26,12 +26,10 @@ Run dev server. In order to run dev server with HMR feature you need to parallel
 ./bin/shakapacker-dev-server
 ```
 
-
-Build and Run Docker Image
+Run Tests
 ```bash
-docker-compose up --build
+rspec
 ```
-
 
 
 ### Folder Structure
