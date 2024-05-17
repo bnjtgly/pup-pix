@@ -28,6 +28,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 gem 'interactor-rails'
 gem 'httparty'
+gem 'tailwindcss-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
