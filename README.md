@@ -24,6 +24,11 @@ Run dev server. In order to run dev server with HMR feature you need to parallel
 ```
 
 
+Build and Run Docker Image
+```bash
+docker-compose up --build
+```
+
 
 
 ### Folder Structure
